@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../icons/logo_nav.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <title>Estudios</title>
+</head>
+<body>
+    <HEADER>
+      <nav id="navegador">
+        <ul>
+        <li> <a href="../index.html">Inicio</a></li>
+        <li><a href="/pages/pacientes.html">Pacientes</a></li>
+        <li><a href="/pages/consultas.html">Consultas</a></li>
+        <li><a href="/pages/obrasSociales.html">Obras Sociales</a></li>
+        <li><a href="/pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    </HEADER>
+    <main>
+      <div class="banner2">
+        <h2>Consultas</h2>
+        <br>
+      
+      </div>
+      <div class="conteiner">
+        <p>Consulte sobre los estudios que debe realizarse</p>
+        <br>
+        <form action="./submit_page" method="get" class="estudios">
+            <select name="estudios" id="estudios">
+                    <option value="">--Por favor, elija un estudio--</option>
+                    <option value="AU">Acido úrico</option>
+                    <option value="Glu">Glucemia</option>
+                    <option value="Col">Colesterol total</option>
+                    <option value="TG">Triglicéridos</option>
+                    <option value="HP">Hepatograma</option>
+            </select>
+            <br><br>
+            <input type="button" value="Buscar">
+          </form>
+       
+      </div>
+         
+      
+        <table class="table"> 
+          <thead>
+            <tr>
+              <th scope="col">Estudio</th>
+              <th scope="col"> Ayuno</th>
+              <th scope="col">Preparación Previa</th>
+              <th scope="col">Resultados</th>
+          
+        </tr>
+        </thead>
+        <tbody>
+              <tr>
+                <th scope="row">Acido úrico</th>
+                <td>8 horas</td>
+                <td>No</td>
+                <td>24 hs</td>
+              </tr>
+
+              <tr>
+                <th scope="row">Glucemia</th>
+                <td>8 horas</td>
+                <td>No</td>
+                <td>24 hs</td>
+              </tr>
+
+              <tr>
+                <th scope="row">Colesterol Total</th>
+                <td>8 horas</td>
+                <td>No</td>
+                <td>24 hs</td>
+              </tr>
+
+              <tr>
+                <th scope="row">Trigliceridos</th>
+                <td>12 horas</td>
+                <td>No</td>
+                <td>24 hs</td>
+              </tr>
+
+              <tr>
+                <th scope="row">Hepatograma</th>
+                <td>8 horas</td>
+                <td>No</td>
+                <td>24 hs</td>
+              </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <br><br>
+    <section class="info1">
+      <p>Atención de lunes a viernes de 7:30 a 12hs. Extracciones hasta las 10hs.</p>
+      <br>
+      <p>Para extracción a domicilio, puede solicitar turno a traves de nuestro <a href="pages/contacto.html">Email</a> o por WhatsApp directamente</p>
+      <br>
+      <p>Consulte estudios que requieren dieta previa o algún otro tipo de preparación <a href="../images/Indicaciones para la toma de muestra para estudio de sangre oculta en materia fecal.docx">Indicaciones</a></p>
+      <br>
+      <p>Para estudios de rutina, la entrega de resultados es en 24hs. Por estudios de alta complejidad, puede consultar aquí <a href="pages/consultas.html">Estudios</a></p>
+      <br>
+      <p>Si tiene dudas o inquietudes, puede contactarnos a traves de nuestra página de <a href="/pages/contacto.html">Contacto</a> o por WhatsApp directamente</p>
+  </section>
+  <br><br><br>
+    </main>
+    <footer>
+      <section class="footerLogo">
+        <img src="/images/logo.png" alt="logo">
+    </section>
+    <section class="footerNav">
+        <nav >
+            <ul>
+              <li> <a href="../index.html">Inicio</a></li>
+             <li><a href="/pages/pacientes.html">Pacientes</a></li>
+             <li><a href="/pages/consultas.html">Consultas</a></li>
+             <li><a href="/pages/obrasSociales.html">Obras Sociales</a></li>
+             <li><a href="/pages/contacto.html">Contacto</a></li>
+            </ul>
+         </nav>
+   <h6> © 2025   Derechos Reservados</h6>
+    </section>
+   
+    <section class="footerRedes">
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-instagram"></i> 
+    </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
