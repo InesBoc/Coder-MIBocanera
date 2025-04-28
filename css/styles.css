@@ -32,7 +32,7 @@ footer {
    
 }
 
-#navegador {      
+/*#navegador {      
     background-color: rgb(139, 39, 233);
 }   
 #navegador ul {
@@ -44,6 +44,20 @@ footer {
   align-items: center;
 }
 #navegador li {
+  padding: 0 15px;
+}*/
+.nav {      
+    background-color: rgb(139, 39, 233);
+}   
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+.nav li {
   padding: 0 15px;
 }
 li a { 
@@ -216,6 +230,21 @@ form.estudios {
     justify-content: center;
     margin: 0;
   }
+/*ELEMENTOS RESPONSIVOS*/
+.icon__menu{
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    width: 26px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+      }
+#ckeck__menu {
+    display: none;
+     }
+
+
 /*Responsive*/
 @media screen and (min-width: 769px) and (max-width: 960px) {
   
