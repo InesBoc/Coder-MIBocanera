@@ -237,9 +237,14 @@ form.estudios {
     cursor: pointer;
     width: 26px;
     height: 100%;
-    display: flex;
+    display: none;
     align-items: center;
       }
+#label__check {
+    width: 26px;
+    height: 100%;
+    display: none;
+}
 #ckeck__menu {
     display: none;
      }
@@ -317,20 +322,38 @@ form.estudios {
   }
 
 @media screen and (max-width:768px) {
-  .nav  {
+   
+  .nav > ul {
       display: flex;
       flex-direction: column;
       aling-items: end;
-      possition: absolute;
+      possition: fixed;
       top: 0;
-      right: 0;
+      left: 0;
+      width: 100%;
+      height: 0px;
       background-color: rgb(139, 39, 233);
+      transition: all 300ms ease;
+      z-index: 100;
+      opacity: 0;
+      visibility: hidden;
       padding: 2rem;
        }
     .nav-list {
       flex-direction: column;
       align-items: end;
          }
+     #label__check {
+    display: block;
+}
+    .icon__menu {
+        display: fle;
+    }
+    #check__menu:checked ~ nav > ul {
+        height: 300px;
+        visibility: visible;
+        opacity: 1;
+    }
   .card-grid {
     grid-template-columns: 1fr;
     grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
