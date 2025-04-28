@@ -286,7 +286,22 @@ form.estudios {
     }
     
   }
-  
+  /* Estilos por defecto (pantallas grandes) */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Estilos para pantallas pequeñas (dispositivos móviles) */
+@media (max-width: 768px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-brand {
+    margin-right: 1rem; /* Añadir espacio entre el logo y el menú */
+  }
+}
 @media screen and (max-width:640px) {
 
   .card-grid {
