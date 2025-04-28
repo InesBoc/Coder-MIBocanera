@@ -347,7 +347,7 @@ form.estudios {
     display: block;
 }
     .icon__menu {
-        display: fle;
+        display: flex;
     }
     #check__menu:checked ~ nav > ul {
         height: 300px;
