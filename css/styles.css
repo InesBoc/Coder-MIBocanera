@@ -286,11 +286,11 @@ form.estudios {
     }
     
   }
-  /* Estilos por defecto (pantallas grandes) */
+  /* Estilos por defecto (pantallas grandes) 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 1rem;
   padding-left: 1rem;
-}
+}*/
 
 /* Estilos para pantallas pequeñas (dispositivos móviles) */
 @media (max-width: 768px) {
