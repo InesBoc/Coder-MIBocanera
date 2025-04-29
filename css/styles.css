@@ -82,7 +82,7 @@ div.banner {
     text-decoration: solid;
     padding-top: 25px;
     text-align: center;
-    background-image: url(/images/marmolado_2.jpg);
+    background-image: url(../images/marmolado_2.jpg);
     background-repeat: no-repeat ;
     background-position: center;
     background-color: rgb(201, 181, 201);
@@ -232,21 +232,27 @@ form.estudios {
   }
 /*ELEMENTOS RESPONSIVOS*/
 .icon__menu{
-    font-size: 260px;
+    font-size: 26px;
     color: black;
     cursor: pointer;
     width: 26px;
     height: 100%;
     display: none;
     align-items: center;
+    opacity: 0;
+    visibility: hidden;
       }
 #label__check {
     width: 26px;
     height: 100%;
     display: none;
+        opacity: 0;
+    visibility: hidden;
 }
 #ckeck__menu {
     display: none;
+        opacity: 0;
+    visibility: hidden;
      }
 
 
