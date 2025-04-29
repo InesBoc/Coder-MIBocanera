@@ -239,23 +239,19 @@ form.estudios {
     height: 100%;
     display: none;
     align-items: center;
-    opacity: 0;
-    visibility: hidden;
+    /*opacity: 0;
+    visibility: hidden;*/
       }
 #label__check {
     width: 26px;
     height: 100%;
     display: none;
-        opacity: 0;
-    visibility: hidden;
+
 }
-#ckeck__menu {
+#check__menu {
     display: none;
-        opacity: 0;
-    visibility: hidden;
+   
      }
-
-
 /*Responsive*/
 @media screen and (min-width: 769px) and (max-width: 960px) {
   
@@ -329,11 +325,11 @@ form.estudios {
 
 @media screen and (max-width:768px) {
    
-  .nav > ul {
+    .nav > ul {
       display: flex;
       flex-direction: column;
-      aling-items: end;
-      possition: fixed;
+      align-items:  end;
+      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
