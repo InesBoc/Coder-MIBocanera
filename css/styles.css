@@ -46,7 +46,7 @@ footer {
 #navegador li {
   padding: 0 15px;
 }*/
-.nav {      
+.menu {      
     background-color: rgb(139, 39, 233);
 }   
 .nav-list {
@@ -351,7 +351,7 @@ form.estudios {
          }
      #label__check {
     display: block;
-}
+    }
     .icon__menu {
         display: flex;
     }
