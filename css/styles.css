@@ -233,14 +233,13 @@ form.estudios {
 /*ELEMENTOS RESPONSIVOS*/
 .icon__menu{
     font-size: 26px;
-    color: black;
+    color: white;
     cursor: pointer;
     width: 26px;
     height: 100%;
     display: none;
     align-items: center;
-    /*opacity: 0;
-    visibility: hidden;*/
+
       }
 #label__check {
     width: 26px;
@@ -418,12 +417,6 @@ form.estudios {
     padding: 10px;
   
   }
-    /*
-  .footerMenu {
-    text-align: center;
-    
-  }*/
-  
   
  }
 /*Contacto*/
