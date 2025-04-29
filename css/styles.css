@@ -29,23 +29,8 @@ header,
 main,
 footer { 
    width: 100%;
-   
 }
 
-/*#navegador {      
-    background-color: rgb(139, 39, 233);
-}   
-#navegador ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  justify-content: center;
-  align-items: center;
-}
-#navegador li {
-  padding: 0 15px;
-}*/
 .menu {      
     background-color: rgb(139, 39, 233);
 }   
@@ -70,9 +55,9 @@ li a {
   font-size: 15px;
 }
 main {
- /*min-height: 100vh;*/
  flex: 1;
 }
+
 /*Encabezado Inicio*/
 div.banner {
     height: 200px;
@@ -86,9 +71,8 @@ div.banner {
     background-repeat: no-repeat ;
     background-position: center;
     background-color: rgb(201, 181, 201);
-
-
 } 
+
 /*Encabezado general*/
 div.banner2 {
     height: 50px;
@@ -118,6 +102,7 @@ section{
     text-align: center;
     font-size: 15px;
 }
+
 /*Textos*/
 .info1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -129,13 +114,10 @@ section{
 }
 
 /*Acceso para pacientes*/
-
 div.acceso  {
     padding : 5%;
     background-color: rgb(184, 241, 222);
     text-align: center;
-    
-        
    }
 input {
     height: 30px;
@@ -150,8 +132,7 @@ p{
    }
 
 /*Consultas*/
-.conteiner{
-  
+.conteiner{  
   border: 5px solid black;
   text-align: center;
   size-adjust: auto;
@@ -174,8 +155,6 @@ form.estudios {
 }
 
 /* Obras sociales */
-
-
 .card-grid {
     display: grid;
     grid-template-columns: 30% 30% 30%;
@@ -189,7 +168,6 @@ form.estudios {
     align-content: flex-start;
     height: auto;
     padding-left:100px ;
-    
   }
   
 .card-blur {
@@ -203,15 +181,14 @@ form.estudios {
     margin: 10px;
     width: 30vh;
     height: 30vh;
-    
   }
   
-  .card-blur:hover {
+.card-blur:hover {
     transform: scale(1.1);
     transition: 1s;
   }
   
-  /* Cuando selecciono una tarjeta con el cursor, las demas se difuminan y se ponen grises */
+ /* Cuando selecciono una tarjeta con el cursor, las demas se difuminan y se ponen grises */
   .card-grid:hover .card-blur:not(:hover) {
     filter: brightness(0.5) saturate(0.5) contrast(1.2) blur(1px);
     transition: filter 200ms linear, transform 200ms linear;
@@ -239,18 +216,16 @@ form.estudios {
     height: 100%;
     display: none;
     align-items: center;
-
-      }
+ }
 #label__check {
     width: 26px;
     height: 100%;
     display: none;
-
 }
 #check__menu {
     display: none;
-   
-     }
+}
+
 /*Responsive*/
 @media screen and (min-width: 769px) and (max-width: 960px) {
   
@@ -267,7 +242,7 @@ form.estudios {
     height: 10px;
     padding-left:50px ;
     border-radius: 30px; 
-  margin-bottom: 800px;}
+    margin-bottom: 800px;}
 
     .nav-oSociales ul {
       display: grid;
@@ -305,7 +280,6 @@ form.estudios {
     }
     .footerMenu {
       text-align: center;
-      
     }
     
   }
@@ -360,9 +334,9 @@ form.estudios {
     height: 8px;
     padding-left:50px ;
     margin-bottom: 1600px;
-    
   }
-  .nav-oSociales ul {
+
+    .nav-oSociales ul {
     display: grid;
     list-style: none;
     padding: 0;
@@ -371,8 +345,7 @@ form.estudios {
     align-items: center;
   }
  
-    /*
-  .footer-ul {
+    .footer-ul {
     display: block;
     list-style: none;
     justify-content: center;
@@ -387,7 +360,7 @@ form.estudios {
     justify-content: space-between;
     font-style: italic;
     font-size: 8px;
-  }*/
+  }
   .footerLogo img{
     width: 100%;
     padding: 10px;
@@ -432,12 +405,10 @@ footer{
 .footerLogo img{
   width: 100px;
   padding: 20px;
-
 }
 .footerMenu {
   text-align: center;
-  
-}
+ }
 
 .footerNav li{
     list-style: none;
