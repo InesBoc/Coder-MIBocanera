@@ -81,6 +81,8 @@ body main .formulario-contacto textarea .formulario, body main .formulario-conta
 header div {
   background-image: linear-gradient(rgb(226, 152, 236), rgb(168, 104, 224));
   /*ELEMENTOS RESPONSIVOS*/
+  animation: move 1s ease-out;
+  transition-duration: 1s;
 }
 header div input #check__menu {
   display: none;
@@ -332,6 +334,8 @@ section .footerRedes i {
 header div {
   background-image: linear-gradient(rgb(226, 152, 236), rgb(168, 104, 224));
   /*ELEMENTOS RESPONSIVOS*/
+  animation: move 1s ease-out;
+  transition-duration: 1s;
 }
 header div input #check__menu {
   display: none;

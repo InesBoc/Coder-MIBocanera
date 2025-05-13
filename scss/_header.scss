@@ -22,9 +22,11 @@ header {
               }
           }
 
-
+             animation: move 1s ease-out;
+                     transition-duration: 1s;
  
         nav {
+           
             ul {
                 
                     display: flex;
@@ -33,9 +35,11 @@ header {
                     margin: 0px;
                     justify-content: center;
                     align-items: center;
+                    
                     li {
                         padding: 0 15px;
                         a{
+                           
                             font-family: $font-primary;
                             color: $color-font-nav;
                             text-decoration: none;
