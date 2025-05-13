@@ -2,7 +2,7 @@
 
 header {
     div{
-        background-image: radial-gradient($color-nav ,$color-banner2 );
+        background-image: linear-gradient($color-banner2, $color-nav);
          /*ELEMENTOS RESPONSIVOS*/
         input  #check__menu {
             display: none;

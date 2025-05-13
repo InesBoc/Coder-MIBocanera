@@ -20,7 +20,7 @@ body{
         }//end-div banner
         section{
             text-align: center;
-            font-size: 15px;
+            font-size: 20px;
             .info1{
                 font-family: $font-primary;
                 text-decoration: none;
@@ -33,7 +33,7 @@ body{
         form{
               .acceso{
                     padding : 5%;
-                     background-image: radial-gradient($color-conteiner,rgb(10, 109, 71)) ;
+                     background-image: radial-gradient($color-conteiner,$color-conteiner2) ;
                     text-align: center;
                 
                 input {
@@ -50,16 +50,16 @@ body{
                 text-align: center;
                 size-adjust: auto;
                 border-width: 20px;
-                border-color: rgb(238, 238, 186);
+                border-color: rgb(231, 231, 206);
                 padding: 20px 0px 20px 50px;
                 font-family:$font-secondary;
-                background-image: radial-gradient($color-conteiner,rgb(10, 109, 71)) ;
+                background-image: radial-gradient($color-conteiner,$color-conteiner2) ;
                 height: auto;
                 width: auto;
                 @extend %sombra-box;
                 p{
                     text-align: center;
-                    padding-left: 100px;
+                    padding-left: 10px;
                     font-size: 20px;
                     font-family:$font-primary;
                    }

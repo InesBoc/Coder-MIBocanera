@@ -64,7 +64,7 @@
     
     @media screen and (max-width:768px) {
      
-      .nav > ul {
+      .nav  ul {
         display: flex;
         flex-direction: column;
         align-items:  end;
@@ -73,7 +73,7 @@
         left: 0;
         width: 100%;
         height: 0px;
-        background-color: rgb(139, 39, 233);
+        background-image: linear-gradient($color-banner2, $color-nav);
         transition: all 300ms ease;
         z-index: 100;
         opacity: 0;
