@@ -3,7 +3,7 @@
 
 .button-contacto {
     color: black;
-    background-color: $color-button ;
+    background-image: linear-gradient(grey , $color-button) ;
     border-color:  beige;
     @extend %sombra-box;
     height: 30px;

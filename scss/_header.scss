@@ -2,7 +2,7 @@
 
 header {
     div{
-        background-color: $color-nav;
+        background-image: radial-gradient($color-nav ,$color-banner2 );
          /*ELEMENTOS RESPONSIVOS*/
         input  #check__menu {
             display: none;
