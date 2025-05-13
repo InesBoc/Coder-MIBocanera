@@ -31,7 +31,7 @@
 
 .banner2 {
     @extend %banner-base;
-    @include banner (50px, $color-banner2,$font-color-banner2);
+    @include banner (50px, $color-banner2,$font-color-banner);
     padding-top: 15px;
     background-image: radial-gradient($color-banner2, $font-color-banner2);
     
