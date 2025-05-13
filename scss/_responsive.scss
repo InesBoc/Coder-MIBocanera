@@ -1,0 +1,150 @@
+ @import 'variables';
+ @import 'header';
+ @import 'main';
+ @import 'footer';
+ 
+ 
+ /*Responsive*/
+  @media screen and (min-width: 769px) and (max-width: 960px) {
+  main{
+    .card-grid{
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas: 
+      "os-autorizacion os-conflicto"
+      "os-cdif ipss"
+      "pami nacionales" ;    
+      margin: 50px;
+      justify-content: center;
+      justify-content: space-around;
+      height: 10px;
+      padding-left:50px ;
+      border-radius: 30px; 
+      margin-bottom: 800px;}
+   } 
+      .nav-oSociales ul {
+        display: grid;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+      }
+     
+      .footer-ul {
+        display: block;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer-li {
+        padding: 0px 15px 100px;
+      }
+      .footer-li .footer-a { 
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
+        color: rgb(235, 235, 87);
+        text-decoration: none;
+        padding: 1px ;
+        display: block;
+        font-style: italic;
+        font-size: 10px;
+      }
+      .footerLogo img{
+        width: 50px;
+        padding: 1px;
+      
+      }
+      .footerMenu {
+        text-align: center;
+      }
+      
+    }
+    
+    @media screen and (max-width:768px) {
+     
+      .nav > ul {
+        display: flex;
+        flex-direction: column;
+        align-items:  end;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0px;
+        background-color: rgb(139, 39, 233);
+        transition: all 300ms ease;
+        z-index: 100;
+        opacity: 0;
+        visibility: hidden;
+        padding: 2rem;
+         }
+      .nav-list {
+        flex-direction: column;
+        align-items: end;
+           }
+       #label__check {
+      display: block;
+      }
+      .icon__menu {
+          display: flex;
+      }
+      #check__menu:checked ~ nav > ul {
+          height: 300px;
+          visibility: visible;
+          opacity: 1;
+      }
+    main{
+
+    .card-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+      grid-template-areas: 
+      "os-autorizacion"
+      "os-conflicto"
+      "os-cdif "
+      "ipss"
+      "pami"
+      "nacionales" ;    
+      margin: 50px;
+      justify-content: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      height: 8px;
+      padding-left:50px ;
+      margin-bottom: 1600px;
+    }
+    }
+      .nav-oSociales ul {
+      display: grid;
+      list-style: none;
+      padding: 0;
+      margin: 10px;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+      .footer-ul {
+      display: block;
+      list-style: none;
+      justify-content: center;
+      align-items: center;
+    }
+     .footer-li .footer-a { 
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
+      color: rgb(235, 235, 87);
+      text-decoration: none;
+      padding: 0px ;
+      display: block;
+      justify-content: space-between;
+      font-style: italic;
+      font-size: 8px;
+    }
+    .footerLogo img{
+      width: 100%;
+      padding: 10px;
+    
+    }
+    
+    }

@@ -1,0 +1,59 @@
+@import 'variables';
+  
+  /* Obras sociales */
+  .card-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50vh 50vh 50vh;
+    grid-template-areas: 
+    "os-autorizacion os-conflicto os-cdif "
+    "ipss pami nacionales" ;
+    margin-left: 15px;
+    gap: 25px;
+    justify-content: center;
+    align-content: flex-start;
+    height: auto;
+    padding-left:100px ;
+     
+  
+        .card-blur {
+            box-shadow: $font-color-cards;
+            display: flex;
+            justify-items:center;
+            align-items: center;
+            flex-grow: 0.5;
+            border: 2px solid $font-color-cards;
+            border-radius: 30px;
+            margin: 10px;
+            width: 30vh;
+            height: 30vh;
+            
+          &:hover {
+                transform: scale(1.1);
+                transition: 1s;
+            }
+                
+                .img-card {
+                    border-radius: 20px 20px 0 0;
+                    cursor: pointer;
+                    padding-top: 15px;
+                }    
+       
+                    
+      
+         }
+          /* Cuando selecciono una tarjeta con el cursor, las demas se difuminan y se ponen grises */
+         &:hover .card-blur:not(:hover) {
+            filter: brightness(0.5) saturate(0.5) contrast(1.2) blur(1px);
+            transition: filter 200ms linear, transform 200ms linear;
+        }
+             
+      #nombre {
+            color:$font-color-cards;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }   
+     
+}

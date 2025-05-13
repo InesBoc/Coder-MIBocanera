@@ -1,0 +1,123 @@
+@import 'variables';
+@import 'mixins';
+
+
+body{
+    main {
+        flex: 1;
+        div {
+
+        h1, h2{
+            font-style: italic;
+        }
+        h3{
+            font-style: italic;
+            color: $color-h3;
+            text-align: center;
+            text-decoration: solid;
+            padding-top: 50px;  
+        }
+        }//end-div banner
+        section{
+            text-align: center;
+            font-size: 15px;
+            .info1{
+                font-family: $font-primary;
+                text-decoration: none;
+                text-align: center;
+                text-size-adjust:auto;
+                padding-left: 20px;
+                margin-left: 20px;
+                }
+          }//end-section ptes
+        form{
+              .acceso{
+                    padding : 5%;
+                    background-color:$color-conteiner;
+                    text-align: center;
+                
+                input {
+                    height: 30px;
+                    width: 200px;
+                    border-color: beige;
+                   @extend %sombra-box;
+                }
+              }//end-div acceso ptes
+        }
+      
+            .conteiner{
+                border: 5px solid black;
+                text-align: center;
+                size-adjust: auto;
+                border-width: 50px;
+                border-color: rgb(238, 238, 186);
+                padding: 20px 0px 20px 50px;
+                font-family:$font-secondary;
+                background-color:$color-conteiner;
+                height: auto;
+                width: auto;
+                @extend %sombra-box;
+                p{
+                    text-align: center;
+                    padding-left: 100px;
+                    font-size: 20px;
+                    font-family:$font-primary;
+                   }
+                form{
+                    .estudios{
+                        text-align: center;
+                        font-family:$font-primary;
+                    }
+                    select{
+                        #estudios{
+                            text-align: left;
+                            font-family:$font-primary;
+                        }
+                    }
+                }
+
+            } //end-div conteiner
+             table {
+                font-family:$font-secondary;
+                display: block;
+                padding-left: 100px;
+                size-adjust: auto;
+                border: 2px solid black;
+                tr{
+                    gap: 20px;
+                    padding: 20px;
+                     text-align: center;
+                th {
+                height: 50px;
+                text-align: center;
+                   }
+               }
+            }//end-tabla
+        .formulario-contacto {
+             display: block;
+             text-align: center;
+
+             input{
+            .formulario{
+               
+                height: 30px;
+                width: 240;
+                @extend %formulario-contacto;
+                }
+                }
+            textarea{
+                    .formulario{
+                        @extend %formulario-contacto;
+                    }
+                    }
+                }//end-form
+            
+            .social-links{
+                display: block;
+                text-align: center;
+          
+                }
+            
+    }//end-main
+
+}//end-body

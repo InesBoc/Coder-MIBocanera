@@ -1,0 +1,31 @@
+@import 'variables.scss';
+
+
+
+body {
+    min-height: 100vh;
+    font-family: $font-primary;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 30px;
+    .oSociales{
+        display: grid;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto;
+        margin-left: 15px;
+        gap: 25px;
+        justify-content: center;
+        align-content: flex-start;
+        height: auto;
+        padding-left:100px ;
+
+        
+    }
+    header,
+        main,
+        footer { 
+         width: 100%;
+        }
+}

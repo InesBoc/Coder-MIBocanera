@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../icons/logo_nav.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link href="<https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css>" rel="stylesheet">
@@ -11,15 +11,21 @@
 </head>
 <body>
     <HEADER>
-        <nav id="navegador">
-            <ul>
-            <li> <a href="../index.html">Inicio</a></li>
-            <li><a href="/pages/pacientes.html">Pacientes</a></li>
-            <li><a href="/pages/consultas.html">Consultas</a></li>
-            <li><a href="/pages/obrasSociales.html">Obras Sociales</a></li>
-            <li><a href="/pages/contacto.html">Contacto</a></li>
+<div class="menu">
+        <input type="checkbox" id="check__menu">
+        <label id="label__check" for="check__menu">
+            <i class="fa-solid fa-bars icon__menu"></i>
+        </label>
+        <nav class= "nav">
+            <ul class="nav-list">
+                <li> <a href="../index.html">Inicio</a></li>
+                <li><a href="pacientes.html">Pacientes</a></li>
+                <li><a href="consultas.html">Consultas</a></li>
+                <li><a href="obrasSociales.html">Obras Sociales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
+    </div>
     </HEADER>
     <main>
         <div class="banner2">
@@ -28,7 +34,7 @@
       
     </div>
     <!--Formulario de contacto-->
-    <form action="submit" method="post" class="estudios">
+    <form action="submit" method="post" class="formulario-contacto">
         <br>
     <input placeholder="Ingrese su mail" class="formulario"></input>
     <br><br>
@@ -36,9 +42,9 @@
     <br><br>
     <p>Puede enviar su pedido de análisis como imagen o archivo pdf para que podamos asistirlo mejor </p>
     <br>
-    <input type="button" value="Adjuntar">
+    <input type="button" value="Adjuntar" class="button-contacto">
     <br><br>
-    <input type="button" value="Enviar">
+    <input type="button" value="Enviar" class="button-contacto">
     </form>
   
    <br>
@@ -53,10 +59,10 @@
     </main>
     <footer>
         <section class="footerLogo">
-            <img src="/images/logo.png" alt="logo">
+            <img src="../images/logo.png" alt="logo">
         </section>
-        <section class="footerNav">
-            <nav >
+        <section class="footerMenu">
+            <nav class="footerNav">
                 <ul>
                     <li> <a href="../index.html">Inicio</a></li>
                  <li><a href="/pages/pacientes.html">Pacientes</a></li>

@@ -1,0 +1,63 @@
+@import 'variables';
+
+
+  /*FOOTER*/
+  footer{
+    width: 100%;
+    color: $color-font-nav;
+    background-color:$color-nav;
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    justify-content: space-around;
+    align-items: center;
+    section{
+        .footerLogo img{
+            width: 100px;
+            padding: 20px;
+            }
+    }
+    section { 
+        text-align: center;
+                    
+        nav {
+                list-style: none;
+                justify-items:auto;
+                align-items: center;
+                padding: 2px;
+               
+            ul{
+
+               li {
+                list-style: none;
+                justify-items:auto;
+                align-items: center;
+                padding: 2px;
+               
+                    a{
+                        color: $color-font-nav;
+                        text-decoration: none;
+                        display: block;
+                        }
+                  }
+                } 
+            }
+
+        }
+    }
+
+    
+    section{
+        .footerRedes {
+            width: 100%;
+            display: inline;
+            align-content: end;
+            padding: 2px 0 30px;
+            i{
+                padding: 2px;
+            }
+            }
+    }
+    
+  
+    
+   

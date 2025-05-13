@@ -1,0 +1,54 @@
+@import 'variables';
+
+header {
+    div{
+        background-color: $color-nav;
+         /*ELEMENTOS RESPONSIVOS*/
+        input  #check__menu {
+            display: none;
+          }
+        label   #label__check {
+            width: 26px;
+            height: 100%;
+            display: none;
+            .icon__menu{
+                font-size: 26px;
+                color: white;
+                cursor: pointer;
+                width: 26px;
+                height: 100%;
+                display: none;
+                align-items: center;
+              }
+          }
+
+
+ 
+        nav {
+            ul {
+                
+                    display: flex;
+                    list-style: none;
+                    padding: 0px;
+                    margin: 0px;
+                    justify-content: center;
+                    align-items: center;
+                    li {
+                        padding: 0 15px;
+                        a{
+                            font-family: $font-primary;
+                            color: $color-font-nav;
+                            text-decoration: none;
+                            padding: 10px ;
+                            display: block;
+                            font-style: italic;
+                            font-size: 15px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+

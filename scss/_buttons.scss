@@ -1,0 +1,18 @@
+@import'variables';
+@import 'mixins';
+
+.button-contacto {
+    color: black;
+    background-color: $color-button ;
+    border-color:  beige;
+    @extend %sombra-box;
+    height: 30px;
+    width:100px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: rgb(20, 20, 20);
+        color: beige;
+    }
+}

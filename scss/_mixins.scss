@@ -1,0 +1,43 @@
+@import 'variables';
+%sombra-box{
+    box-shadow:  2px 5px $color-sombra;
+}
+
+%banner-base {
+    
+    font-family: $font-primary;
+    
+    text-align: center;
+}
+
+
+
+@mixin banner ($altura,$color,$fuente){
+    height: $altura    ;
+    background-color: $color;
+    color: $fuente;
+}
+.banner {
+    @extend %banner-base;
+    @include banner(200px,$color-banner,$font-color-banner);
+    padding-top: 25px;
+    text-decoration: solid;
+    text-shadow: 2px 2px 10px rgb(232, 238, 216);
+    background-image: url(../images/marmolado_2.jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+
+}
+
+.banner2 {
+    @extend %banner-base;
+    @include banner (50px, $color-banner2,$font-color-banner2);
+    padding-top: 15px;
+    background: linear-gradient(90deg, rgb(121, 85, 155));
+    
+}
+
+%formulario-contacto{
+    display: center;
+    font-family:$font-primary;
+}
