@@ -7,19 +7,6 @@ body{
         flex: 1;
         div {
 
-                        animation: move 1.5s ease-out;
-            transition-duration: 1s;
-            @keyframes move {
-         0% {
-            opacity: 0;
-            transform: translateY(50px);
-            }
-
-        100% {
-            opacity: 1;
-            transform: translateY(0);}
-  
-             }
             
         h1, h2{
             font-style: italic;
