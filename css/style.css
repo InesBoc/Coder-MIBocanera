@@ -570,6 +570,29 @@ section .footerRedes i {
 
 /*Responsive*/
 @media screen and (min-width: 769px) and (max-width: 960px) {
+  main .table {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: block;
+    gap: 20px;
+    padding-left: 10px;
+    size-adjust: auto;
+    border-bottom: 2px solid black;
+  }
+  main .table tr {
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+  main .table tr th {
+    height: 50px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  main .table tr td {
+    height: 50px;
+    padding-left: 10px;
+    text-align: left;
+  }
   main .card-grid {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -619,6 +642,28 @@ section .footerRedes i {
   }
 }
 @media screen and (max-width: 768px) {
+  .table {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: block;
+    gap: 20px;
+    padding-left: 10px;
+    border-bottom: 2px solid black;
+  }
+  .table tr {
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+  .table tr th {
+    height: 50px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  .table tr td {
+    height: 50px;
+    padding-left: 10px;
+    text-align: left;
+  }
   .nav ul {
     display: flex;
     flex-direction: column;
