@@ -81,8 +81,6 @@ body main .formulario-contacto textarea .formulario, body main .formulario-conta
 header div {
   background-image: linear-gradient(rgb(226, 152, 236), rgb(168, 104, 224));
   /*ELEMENTOS RESPONSIVOS*/
-  animation: move 1s ease-out;
-  transition-duration: 1s;
 }
 header div input #check__menu {
   display: none;
@@ -190,6 +188,9 @@ body main .formulario-contacto textarea .formulario, body main .formulario-conta
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif, monospace;
 }
 
+body {
+  background-color: rgb(211, 201, 211);
+}
 body main {
   flex: 1;
 }
@@ -256,9 +257,11 @@ body main table {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: block;
   gap: 20px;
-  padding-left: 20px;
+  padding-left: 50px;
   size-adjust: auto;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  width: 80%;
 }
 body main table tr {
   gap: 20px;
@@ -267,6 +270,12 @@ body main table tr {
 }
 body main table tr th {
   height: 50px;
+  padding-left: 100px;
+  text-align: center;
+}
+body main table tr td {
+  height: 50px;
+  padding-left: 50px;
   text-align: center;
 }
 body main .formulario-contacto {
@@ -334,8 +343,6 @@ section .footerRedes i {
 header div {
   background-image: linear-gradient(rgb(226, 152, 236), rgb(168, 104, 224));
   /*ELEMENTOS RESPONSIVOS*/
-  animation: move 1s ease-out;
-  transition-duration: 1s;
 }
 header div input #check__menu {
   display: none;
@@ -409,6 +416,9 @@ body main .formulario-contacto input .formulario, body main .formulario-contacto
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif, monospace;
 }
 
+body {
+  background-color: rgb(211, 201, 211);
+}
 body main {
   flex: 1;
 }
@@ -475,9 +485,11 @@ body main table {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: block;
   gap: 20px;
-  padding-left: 20px;
+  padding-left: 50px;
   size-adjust: auto;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  width: 80%;
 }
 body main table tr {
   gap: 20px;
@@ -486,6 +498,12 @@ body main table tr {
 }
 body main table tr th {
   height: 50px;
+  padding-left: 100px;
+  text-align: center;
+}
+body main table tr td {
+  height: 50px;
+  padding-left: 50px;
   text-align: center;
 }
 body main .formulario-contacto {

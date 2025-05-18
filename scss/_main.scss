@@ -3,6 +3,7 @@
 
 
 body{
+    background-color: $color-body;
     main {
         flex: 1;
         div {
@@ -88,15 +89,23 @@ body{
                 font-family:$font-secondary;
                 display: block;
                 gap: 20px;
-                padding-left: 20px;
+                padding-left: 50px;
                 size-adjust: auto;
-                border: 2px solid black;
+                border-bottom: 2px solid black;
+                margin: 0 auto;
+                width: 80%;
                 tr{
                     gap: 20px;
                     padding: 20px;
-                     text-align: center;
+                    text-align: center;
                 th {
                 height: 50px;
+                padding-left: 100px;
+                text-align: center;
+                   }
+                td {
+                height: 50px;
+                padding-left: 50px;
                 text-align: center;
                    }
                }
